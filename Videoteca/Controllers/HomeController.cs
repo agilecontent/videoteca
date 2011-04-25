@@ -17,5 +17,11 @@ namespace Videoteca.Controllers
             ViewData["movies"] = movies;
             return View();
         }
+        public void Edit(int id)
+        {
+            var movie = this.DataContext.Movies.FindById(id);
+            this.UpdateModel(movie);
+            this.DataContext.Movies.Save(movie);
+        }
     }
 }

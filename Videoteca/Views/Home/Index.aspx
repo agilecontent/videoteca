@@ -15,17 +15,11 @@
             </span>
             <span class="year"><%= movie.Year %></span>
             <div class="rating">
-                <form action="/" method="post">
+                <% Html.BeginRouteForm("edit_movie_path", new { movie.Id }) { %>
                     <label for="rating">Nota</label>
-                    <select name="rating">
-                        <option value="5">5</option>
-                        <option value="4">4</option>
-                        <option value="3">3</option>
-                        <option value="2">2</option>
-                        <option value="1">1</option>
-                    </select>
+                    <%= Html.DropDownList("rating", new SelectList(Enumerable.Range(1, 5).Reverse(), movie.Rating)) %>
                     <input type="submit" value="alterar"/>
-                </form>
+                <% } %>
             </div>
         </li>
         <% } %>
