@@ -1,0 +1,14 @@
+C:\Workspace\Videoteca\Videoteca\bin\Videoteca.dll
+C:\Workspace\Videoteca\Videoteca\bin\Videoteca.pdb
+C:\Workspace\Videoteca\Videoteca\obj\Debug\ResolveAssemblyReference.cache
+C:\Workspace\Videoteca\Videoteca\obj\Debug\Videoteca.dll
+C:\Workspace\Videoteca\Videoteca\obj\Debug\Videoteca.pdb
+C:\Workspace\Videoteca\Videoteca\bin\Castle.Core.dll
+C:\Workspace\Videoteca\Videoteca\bin\FluentNHibernate.dll
+C:\Workspace\Videoteca\Videoteca\bin\Iesi.Collections.dll
+C:\Workspace\Videoteca\Videoteca\bin\NHibernate.ByteCode.Castle.dll
+C:\Workspace\Videoteca\Videoteca\bin\NHibernate.dll
+C:\Workspace\Videoteca\Videoteca\bin\Castle.Core.xml
+C:\Workspace\Videoteca\Videoteca\bin\FluentNHibernate.pdb
+C:\Workspace\Videoteca\Videoteca\bin\Iesi.Collections.pdb
+C:\Workspace\Videoteca\Videoteca\bin\NHibernate.ByteCode.Castle.xml

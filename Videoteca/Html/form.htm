@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../Content/videoteca.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="structure">
+        <div id="header">
+            <h1><a href="index.htm">Videoteca</a></h1>
+        </div>
+        <div id="content">
+            <div id="genre-menu">
+                <ul>
+                    <li><a href="#">Ação</a></li>
+                    <li><a href="#">Aventura</a></li>
+                    <li><a href="#">Romance</a></li>
+                    <li><a href="#">Terror</a></li>
+                </ul>
+            </div>
+            <div id="movie-form">
+                <form action="form.htm" method="post">
+                    <dl>
+                        <dt><label for="title">Título</label></dt>
+                        <dd><input name="title" id="title" type="text" /></dd>
+                        <dt><label for="year">Ano</label></dt>
+                        <dd><input name="year" id="year" type="text" /></dd>
+                        <dt><label for="genre">Gênero</label></dt>
+                        <dd>
+                            <select name="genre" id="genre">
+                                <option value="1">Ação</option>
+                                <option value="2">Aventura</option>
+                                <option value="3">Romance</option>
+                                <option value="4">Terror</option>
+                            </select>
+                        </dd>
+                        <dt><label for="rating">Nota</label></dt>
+                        <dd>
+                            <select name="rating" id="rating">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <div>
+                        <input type=submit value="salvar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

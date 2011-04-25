@@ -1,0 +1,147 @@
+﻿/* General Styles */ 
+* { vertical-align: baseline; font-weight: inherit; font-family: inherit; font-style: inherit; font-size: 100%; border: 0; padding: 0; margin: 0; }
+
+body 
+{
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    background:#E0DFD0;
+    font-size:15px;
+}
+
+a { color: #404040; text-decoration:none; }
+a:hover { text-decoration: underline; }
+
+select { border:solid 1px #D0CFC0; }
+input[type="text"] { border:solid 1px #D0CFC0; }
+input[type="submit"]
+{
+    font-size:14px;
+    background:#888;
+    color:White;
+    padding:3px 5px;
+}
+
+/* Header */ 
+div#header
+{
+    background:#404040;
+
+}
+div#header h1
+{
+    width:950px;
+    margin:auto;
+    padding:30px 0 50px 0;
+    font-size:30px;
+}
+div#header h1 a
+{
+    color:White;
+}
+
+/* Content */
+div#content
+{
+  margin:auto;
+  width:950px;
+  margin-top:-30px;
+  min-height:600px;
+  border-radius:3px;
+  border:solid 1px #D0CFC0;
+  background:white;
+  padding:15px;
+}
+div#movie-list
+{
+    float:left;
+    width:775px;
+}
+div#movie-list li
+{
+  list-style:none;
+  width:367px;
+  float:left;
+  margin:10px;
+}
+div#movie-list img
+{
+    background:silver;
+    width:100px;
+    height:140px;
+    float:left;
+    margin-right:10px;
+}
+span.title, span.genre
+{
+    display:block;
+}
+span.title
+{
+    font-weight:bold;
+    font-size:24px;
+}
+div.rating
+{
+    margin-top:15px;
+}
+div#movie-list select
+{
+    width:40px;    
+}
+/* Menu */
+div#genre-menu
+{
+    float:left;
+    width:150px;
+    font-size:20px;
+}
+div#genre-menu li
+{
+    list-style:none;
+}
+div#genre-menu a
+{
+    color:#806F60;
+    display:block;
+    padding:5px 10px;
+}
+div#genre-menu a:hover
+{
+    background:#E0DFD0;
+    text-decoration:none;
+}
+
+/* Footer */
+#footer
+{
+    text-align:center;
+    font-size:12px;
+    color:#888;
+    margin:10px;
+}
+
+/* Form */
+div#movie-form
+{
+    float:left;
+    font-size:18px;
+}
+
+div#movie-form dl
+{
+    height:180px;
+}
+div#movie-form dt
+{
+    float:left;
+    clear:left;
+    width:70px;
+    margin-bottom:20px;
+}
+div#movie-form dd
+{
+    float:left;
+}
+#title{ width:250px; }
+#year{ width:50px; }
+#rating{ width:40px; }
