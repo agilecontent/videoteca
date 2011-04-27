@@ -15,7 +15,7 @@
                 <ul>
                     <% foreach(var genre in (this.ViewData["genres"] as IEnumerable<Genre>)) { %>
                         <li>
-                            <%= Html.RouteLink(genre.Title, "genre_path", new { genre.Id })%>
+                            <a href="#"><%= genre.Title %></a>
                         </li>
                     <% } %>
                 </ul>

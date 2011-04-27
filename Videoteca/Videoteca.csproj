@@ -75,9 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BaseController.cs" />
-    <Compile Include="Controllers\GenresController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -114,10 +112,7 @@
     <Content Include="App_data\Videoteca_log.ldf">
       <DependentUpon>Videoteca.mdf</DependentUpon>
     </Content>
-    <Content Include="Views\Genres\Show.aspx" />
     <Content Include="Views\Home\Index.aspx" />
-    <Content Include="Views\Movies\Edit.aspx" />
-    <Content Include="Views\Shared\MovieBox.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
