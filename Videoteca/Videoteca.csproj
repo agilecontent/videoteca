@@ -62,23 +62,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Repositories\DataContext.cs" />
-    <Compile Include="Models\Repositories\IDataContext.cs" />
-    <Compile Include="Models\Repositories\IGenreRepository.cs" />
-    <Compile Include="Models\Repositories\IMovieRepository.cs" />
-    <Compile Include="Models\Repositories\IRepository.cs" />
-    <Compile Include="Models\Repositories\MovieRepository.cs" />
-    <Compile Include="Models\Repositories\NHibernateRepository.cs" />
-    <Compile Include="Models\Genre.cs" />
-    <Compile Include="Models\Repositories\GenreRepository.cs" />
-    <Compile Include="Models\Mapping\GenreMap.cs" />
-    <Compile Include="Models\Mapping\MovieMap.cs" />
-    <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Images\Movies\1.jpg" />
     <Content Include="Content\Images\Movies\2.jpg" />
+    <Content Include="Content\Images\Movies\3.jpg" />
+    <Content Include="Content\Images\Movies\4.jpg" />
+    <Content Include="Content\Images\Movies\5.jpg" />
+    <Content Include="Content\Images\Movies\6.jpg" />
     <Content Include="Content\videoteca.css" />
     <Content Include="Global.asax" />
     <Content Include="Html\form.htm" />
@@ -114,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
