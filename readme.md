@@ -1,8 +1,8 @@
-Aplicação utilizada para avaliar os canditados as vagas para desenvolvedor web.
-Este repositório possui 3 branches, um para cada nível de contratação:
+ï»¿AplicaÃ§Ã£o utilizada para avaliar os canditados as vagas para desenvolvedor web.
+Este repositÃ³rio possui 3 branches, um para cada nÃ­vel de contrataÃ§Ã£o:
 
--	Júnior
+-	JÃºnior
 -	Pleno
--	Sênior
+-	SÃªnior
 	
-No branch "master" está a implementação de referência.
+No branch "master" estÃ¡ a implementaÃ§Ã£o de referÃªncia.
