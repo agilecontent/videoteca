@@ -23,8 +23,6 @@ namespace Videoteca.Models
             return config.BuildSessionFactory();
         }
 
-        #region IRepository<T> Members
-
         public IEnumerable<T> FindAll()
         {
             using (var session = this.OpenSession())
@@ -35,19 +33,27 @@ namespace Videoteca.Models
 
         public T FindById(int id)
         {
-            throw new NotImplementedException();
+            using (var session = this.OpenSession())
+            {
+                return session.Get<T>(id);
+            }
         }
 
         public void Save(T model)
         {
-            throw new NotImplementedException();
+            using (var session = this.OpenSession())
+            {
+                using (var trans = session.BeginTransaction())
+                {
+                    session.SaveOrUpdate(model);
+                    trans.Commit();
+                }                
+            }
         }
 
         public void Remove(T model)
         {
             throw new NotImplementedException();
         }
-
-        #endregion
     }
 }

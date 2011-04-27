@@ -11,9 +11,7 @@ namespace Videoteca.Controllers
     {
         public ActionResult Index()
         {
-            var genres = this.DataContext.Genres.FindAll();
             var movies = this.DataContext.Movies.FindAll();
-            ViewData["genres"] = genres;
             ViewData["movies"] = movies;
             return View();
         }

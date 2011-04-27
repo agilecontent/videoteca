@@ -14,7 +14,7 @@ namespace Videoteca.Models.Mapping
 
             Id(x => x.Id);
             Map(x => x.Title);
-            HasMany(x => x.Movies).Inverse().Cascade.All();
+            HasMany(x => x.Movies).Not.LazyLoad();
         }
     }
 }

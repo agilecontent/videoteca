@@ -15,6 +15,7 @@ namespace Videoteca.Controllers
         public BaseController (IDataContext dataContext)
 	    {
             this.DataContext = dataContext;
+            ViewData["genres"] = this.DataContext.Genres.FindAll();
 	    }
 
         public IDataContext DataContext { get; set; }

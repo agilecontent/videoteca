@@ -18,10 +18,11 @@ namespace Videoteca
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            // Restful Routes
-            routes.MapRoute("movie_path", "movies/{id}", new { controller = "Movies", action = "show" });
+            routes.MapRoute("edit_movie_path", "movies/edit/{id}", new { controller = "Movies", action = "Edit" });
+            routes.MapRoute("update_movie_path", "movies/update/{id}", new { controller = "Movies", action = "Update" });
+            routes.MapRoute("rate_movie_path", "movies/rate/{id}", new { controller = "Movies", action = "Rate" });
+
             routes.MapRoute("genre_path", "genre/{id}", new { controller = "Genres", action = "show" });
-            routes.MapRoute("genre_movies_path", "genre/{id}/movies", new { controller = "Genres", action = "movies" });
 
             routes.MapRoute(
                 "Default", // Route name
