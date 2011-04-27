@@ -17,7 +17,6 @@ namespace Videoteca.Controllers
             this.DataContext = dataContext;
             ViewData["genres"] = this.DataContext.Genres.AllByTitle();
 	    }
-
         public IDataContext DataContext { get; set; }
     }
 }

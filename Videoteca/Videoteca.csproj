@@ -96,6 +96,10 @@
   <ItemGroup>
     <Content Include="Content\Images\Movies\1.jpg" />
     <Content Include="Content\Images\Movies\2.jpg" />
+    <Content Include="Content\Images\Movies\3.jpg" />
+    <Content Include="Content\Images\Movies\4.jpg" />
+    <Content Include="Content\Images\Movies\5.jpg" />
+    <Content Include="Content\Images\Movies\6.jpg" />
     <Content Include="Content\videoteca.css" />
     <Content Include="Global.asax" />
     <Content Include="Html\form.htm" />
