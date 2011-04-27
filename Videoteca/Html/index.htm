@@ -7,7 +7,8 @@
 <body>
     <div id="structure">
         <div id="header">
-            <h1><a href="index.htm">Videoteca</a></h1>
+            <h1>
+                <a href="index.htm">Videoteca</a></h1>
         </div>
         <div id="content">
             <div id="genre-menu">
@@ -21,119 +22,144 @@
             <div id="movie-list">
                 <ul>
                     <li>
-                        <img src="http://ia.media-imdb.com/images/M/MV5BMTYxOTQ3MjM5OV5BMl5BanBnXkFtZTcwMDYzMjAyNA@@._V1._SY140_SX100_.jpg" alt="Toy Story" />
-                        <span class="title"><a href="form.htm">Toy Story</a></span>
-                        <span class="genre"><a href="form.htm">Animação</a></span>
-                        <span class="year">1996</span>
-                        <div class="rating">
-                            <form action="/" method="post">
-                                <label for="rating">Nota</label>
-                                <select name="rating">
-                                    <option value="5">5</option>
-                                    <option value="4">4</option>
-                                    <option value="3">3</option>
-                                    <option value="2">2</option>
-                                    <option value="1">1</option>
+                        <div class="movie_box">
+                            <img src="/content/images/movies/1.jpg" alt="Avatar" />
+                            <span class="title"><a href="/movies/edit/1">Avatar</a> </span><span class="genre"><a
+                                href="/genre/3">Com&#233;dia</a> </span><span class="year">2009</span>
+                            <div class="rating">
+                                <form action="/movies/rate/1" method="post">
+                                <label for="rating">
+                                    Nota</label>
+                                <select data-val="true" data-val-number="The field Rating must be a number." data-val-required="The Rating field is required."
+                                    id="Rating" name="Rating">
+                                    <option>5</option>
+                                    <option>4</option>
+                                    <option selected="selected">3</option>
+                                    <option>2</option>
+                                    <option>1</option>
                                 </select>
-                                <input type="submit" value="alterar"/>
-                            </form>
+                                <input type="submit" value="alterar" />
+                                </form>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <img src="http://ia.media-imdb.com/images/M/MV5BMTYxOTQ3MjM5OV5BMl5BanBnXkFtZTcwMDYzMjAyNA@@._V1._SY140_SX100_.jpg" alt="Avatar" />
-                        <span class="title"><a href="form.htm">Avatar</a></span>
-                        <span class="genre"><a href="form.htm">Aventura</a></span>
-                        <div class="rating">
-                            <form action="/" method="post">
-                                <label for="rating">Nota</label>
-                                <select name="rating">
-                                    <option value="5">5</option>
-                                    <option value="4">4</option>
-                                    <option value="3">3</option>
-                                    <option value="2">2</option>
-                                    <option value="1">1</option>
+                        <div class="movie_box">
+                            <img src="/content/images/movies/2.jpg" alt="Batman - O Cavaleiro das Trevas" />
+                            <span class="title"><a href="/movies/edit/2">Batman - O Cavaleiro das Trevas</a>
+                            </span><span class="genre"><a href="/genre/1">A&#231;&#227;o</a> </span><span class="year">
+                                2008</span>
+                            <div class="rating">
+                                <form action="/movies/rate/2" method="post">
+                                <label for="rating">
+                                    Nota</label>
+                                <select data-val="true" data-val-number="The field Rating must be a number." data-val-required="The Rating field is required."
+                                    id="Rating" name="Rating">
+                                    <option selected="selected">5</option>
+                                    <option>4</option>
+                                    <option>3</option>
+                                    <option>2</option>
+                                    <option>1</option>
                                 </select>
-                                <input type="submit" value="alterar"/>
-                            </form>
+                                <input type="submit" value="alterar" />
+                                </form>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <img src="http://ia.media-imdb.com/images/M/MV5BMTYxOTQ3MjM5OV5BMl5BanBnXkFtZTcwMDYzMjAyNA@@._V1._SY140_SX100_.jpg" alt="Pulp Fiction" />
-                        <span class="title"><a href="form.htm">Pulp Fiction</a></span>
-                        <span class="genre"><a href="form.htm">Ação</a></span>
-                        <div class="rating">
-                            <form action="/" method="post">
-                                <label for="rating">Nota</label>
-                                <select name="rating">
-                                    <option value="5">5</option>
-                                    <option value="4">4</option>
-                                    <option value="3">3</option>
-                                    <option value="2">2</option>
-                                    <option value="1">1</option>
+                        <div class="movie_box">
+                            <img src="/content/images/movies/3.jpg" alt="Beleza Americana" />
+                            <span class="title"><a href="/movies/edit/3">Beleza Americana</a> </span><span class="genre">
+                                <a href="/genre/10">Drama</a> </span><span class="year">1999</span>
+                            <div class="rating">
+                                <form action="/movies/rate/3" method="post">
+                                <label for="rating">
+                                    Nota</label>
+                                <select data-val="true" data-val-number="The field Rating must be a number." data-val-required="The Rating field is required."
+                                    id="Rating" name="Rating">
+                                    <option selected="selected">5</option>
+                                    <option>4</option>
+                                    <option>3</option>
+                                    <option>2</option>
+                                    <option>1</option>
                                 </select>
-                                <input type="submit" value="alterar"/>
-                            </form>
+                                <input type="submit" value="alterar" />
+                                </form>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <img src="http://ia.media-imdb.com/images/M/MV5BMTYxOTQ3MjM5OV5BMl5BanBnXkFtZTcwMDYzMjAyNA@@._V1._SY140_SX100_.jpg" alt="O Senhor dos Anéis" />
-                        <span class="title"><a href="form.htm">O Senhor dos Anéis</a></span>
-                        <span class="genre"><a href="form.htm">Aventura</a></span>
-                        <div class="rating">
-                            <form action="/" method="post">
-                                <label for="rating">Nota</label>
-                                <select name="rating">
-                                    <option value="5">5</option>
-                                    <option value="4">4</option>
-                                    <option value="3">3</option>
-                                    <option value="2">2</option>
-                                    <option value="1">1</option>
+                        <div class="movie_box">
+                            <img src="/content/images/movies/4.jpg" alt="Clube da Luta" />
+                            <span class="title"><a href="/movies/edit/4">Clube da Luta</a> </span><span class="genre">
+                                <a href="/genre/10">Drama</a> </span><span class="year">1999</span>
+                            <div class="rating">
+                                <form action="/movies/rate/4" method="post">
+                                <label for="rating">
+                                    Nota</label>
+                                <select data-val="true" data-val-number="The field Rating must be a number." data-val-required="The Rating field is required."
+                                    id="Rating" name="Rating">
+                                    <option>5</option>
+                                    <option selected="selected">4</option>
+                                    <option>3</option>
+                                    <option>2</option>
+                                    <option>1</option>
                                 </select>
-                                <input type="submit" value="alterar"/>
-                            </form>
+                                <input type="submit" value="alterar" />
+                                </form>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <img src="http://ia.media-imdb.com/images/M/MV5BMTYxOTQ3MjM5OV5BMl5BanBnXkFtZTcwMDYzMjAyNA@@._V1._SY140_SX100_.jpg" alt="Tropa de Elite" />
-                        <span class="title"><a href="form.htm">Tropa de Elite</a></span>
-                        <span class="genre"><a href="form.htm">Ação</a></span>
-                        <div class="rating">
-                            <form action="/" method="post">
-                                <label for="rating">Nota</label>
-                                <select name="rating">
-                                    <option value="5">5</option>
-                                    <option value="4">4</option>
-                                    <option value="3">3</option>
-                                    <option value="2">2</option>
-                                    <option value="1">1</option>
+                        <div class="movie_box">
+                            <img src="/content/images/movies/5.jpg" alt="Matrix" />
+                            <span class="title"><a href="/movies/edit/5">Matrix</a> </span><span class="genre"><a
+                                href="/genre/5">Fic&#231;&#227;o</a> </span><span class="year">1999</span>
+                            <div class="rating">
+                                <form action="/movies/rate/5" method="post">
+                                <label for="rating">
+                                    Nota</label>
+                                <select data-val="true" data-val-number="The field Rating must be a number." data-val-required="The Rating field is required."
+                                    id="Rating" name="Rating">
+                                    <option selected="selected">5</option>
+                                    <option>4</option>
+                                    <option>3</option>
+                                    <option>2</option>
+                                    <option>1</option>
                                 </select>
-                                <input type="submit" value="alterar"/>
-                            </form>
+                                <input type="submit" value="alterar" />
+                                </form>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <img src="http://ia.media-imdb.com/images/M/MV5BMTYxOTQ3MjM5OV5BMl5BanBnXkFtZTcwMDYzMjAyNA@@._V1._SY140_SX100_.jpg" alt="Clube da Luta" />
-                        <span class="title"><a href="form.htm">Clube da Luta</a></span>
-                        <span class="genre"><a href="form.htm">Açao</a></span>
-                        <div class="rating">
-                            <form action="/" method="post">
-                                <label for="rating">Nota</label>
-                                <select name="rating">
-                                    <option value="5">5</option>
-                                    <option value="4">4</option>
-                                    <option value="3">3</option>
-                                    <option value="2">2</option>
-                                    <option value="1">1</option>
+                        <div class="movie_box">
+                            <img src="/content/images/movies/6.jpg" alt="Pulp Fiction" />
+                            <span class="title"><a href="/movies/edit/6">Pulp Fiction</a> </span><span class="genre">
+                                <a href="/genre/1">A&#231;&#227;o</a> </span><span class="year">1994</span>
+                            <div class="rating">
+                                <form action="/movies/rate/6" method="post">
+                                <label for="rating">
+                                    Nota</label>
+                                <select data-val="true" data-val-number="The field Rating must be a number." data-val-required="The Rating field is required."
+                                    id="Rating" name="Rating">
+                                    <option selected="selected">5</option>
+                                    <option>4</option>
+                                    <option>3</option>
+                                    <option>2</option>
+                                    <option>1</option>
                                 </select>
-                                <input type="submit" value="alterar"/>
-                            </form>
+                                <input type="submit" value="alterar" />
+                                </form>
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
         <div id="footer">
-            <p>&copy; 2011 - LabOne Systems S/A</p>
+            <p>
+                &copy; 2011 - LabOne Systems S/A</p>
         </div>
     </div>
 </body>
